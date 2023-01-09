@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Nome: <input id="nome" type="text" name="" id=""><br><br>
+    Sobrenome: <input id="sobrenome" type="text" name="" id=""><br><br>
+    Peso: <input id="peso" type="text" name="" id=""><br><br>
+    Altura: <input id="altura" type="text" name="" id=""><br><br>
+    <button type="submit" onclick="return cadastrar()">Enviar</button><br><br>
+    <span id="msg"></span>
+    <script>
+        function cadastrar(){
+
+            window.alert('Cadastrado com sucesso!!')
+            
+            const nome = window.document.getElementById('nome')
+            const sobrenome = window.document.getElementById('sobrenome')
+            const peso = window.document.getElementById('peso')
+            const altura = window.document.getElementById('altura')
+            const msg = window.document.getElementById('msg')
+            const dados = new Array()
+
+            dados.unshift(nome.value.toString())
+            dados.unshift(sobrenome.value.toString())
+            dados.unshift(Number.parseFloat(peso.value))
+            dados.unshift(Number.parseFloat(altura.value))
+
+            msg.innerHTML += `${dados} <br />` 
+        }
+    </script>
+</body>
+</html>

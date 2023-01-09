@@ -1,0 +1,1 @@
+r(num), Math.ceil(num), Math.round(num))
