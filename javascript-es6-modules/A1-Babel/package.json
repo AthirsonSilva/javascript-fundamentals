@@ -1,0 +1,25 @@
+{
+  "name": "self-taught",
+  "version": "1.0.0",
+  "description": "<p>This repository was made for me to add some work, projects and exercises i do in my learning journey. The languages present here will probably be <b>Python</b> and <b>JavaScript</b>, they are my two main programming languages.</p>\r <div margin-top=20px>\r   <img margin=\"auto 20px auto 20px\" align=\"center\" alt=\"Python\" height=\"30\" width=\"40\"      src=\"https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg\">\r   <img margin=\"auto 20px auto 20px\" align=\"center\" alt=\"Python\" height=\"30\" width=\"40\"  src=\"https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg\">\r   <img margin=\"auto 20px auto 20px\" align=\"center\" alt=\"Html\" height=\"30\" width=\"40\"      src=\"https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg\">\r   <img margin=\"auto 20px auto 20px\" align=\"center\" alt=\"Css\" height=\"30\" width=\"40\"  src=\"https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg\">\r </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AthirsonSilva/Self-studies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AthirsonSilva/Self-studies/issues"
+  },
+  "homepage": "https://github.com/AthirsonSilva/Self-studies#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
